@@ -1,0 +1,14 @@
+body {
+    height: 100vh;
+    background: #F9F9F9;
+
+    display: grid;
+    grid-template-columns: 218px repeat(4, 1fr);
+    grid-template-rows: 56px repeat(4, 1fr);
+    grid-template-areas: 
+    "header header header header"
+    "sidebar main main main"
+    "sidebar main main main"
+    "sidebar main main main"
+    "sidebar main main main";
+}
