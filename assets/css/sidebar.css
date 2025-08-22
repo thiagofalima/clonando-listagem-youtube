@@ -1,0 +1,37 @@
+.sidebar {
+    padding: 1.5rem;
+    background: #FFF;
+
+    grid-area: sidebar;
+}
+
+.sidebar p {
+    margin-bottom: 1rem;
+
+    font-size: .875rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.sidebar p::before {
+    content: '';
+    display: inline-block;
+    width: 1.125rem;
+    height: 1.125rem;
+    margin-right: 1rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sidebar p.home::before {background-image: url('../images/icons/home.svg');}
+.sidebar p.explore::before {background-image: url('../images/icons/compass.svg');}
+.sidebar p.subscribe::before {background-image: url('../images/icons/youtube.svg');}
+.sidebar p.music::before {background-image: url('../images/icons/disc.svg');}
+.sidebar p.liked::before {background-image: url('../images/icons/thumbs-up.svg');}
+.sidebar p.later::before {background-image: url('../images/icons/clock.svg');}
+.sidebar p.downloads::before {background-image: url('../images/icons/download.svg');}
+.sidebar p.movies::before {background-image: url('../images/icons/film.svg');}
+.sidebar p.learn::before {background-image: url('../images/icons/book.svg');}
+.sidebar p.sports::before {background-image: url('../images/icons/award.svg');}
