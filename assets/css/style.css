@@ -6,9 +6,9 @@ body {
     grid-template-columns: 218px repeat(4, 1fr);
     grid-template-rows: 56px repeat(4, 1fr);
     grid-template-areas: 
-    "header header header header"
-    "sidebar main main main"
-    "sidebar main main main"
-    "sidebar main main main"
-    "sidebar main main main";
+    "header header header header header"
+    "sidebar main main main main"
+    "sidebar main main main main"
+    "sidebar main main main main"
+    "sidebar main main main main";
 }
