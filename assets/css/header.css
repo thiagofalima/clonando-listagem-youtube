@@ -62,7 +62,7 @@ header .right {
     align-items: center;
 }
 
-header .right img.user-photo {
+img.user-photo {
     max-width: 20%;
     border-radius: 50%;
 }
