@@ -18,6 +18,7 @@ This is a study project focused on recreating the YouTube video list page, using
 ## Technologies Used
 - **HTML5:** For structuring the page content.
 - **CSS3:** For styling, and primarily, for the layout using **Display Grid**.
+- **Unsplash API:** Used to dynamically fetch high-quality, relevant images for the website's menu and photo gallery, ensuring fresh and engaging visual content.
 
 ## Features
 - Precise recreation of the video list page layout.
