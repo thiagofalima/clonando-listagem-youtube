@@ -11,10 +11,8 @@ main {
 
 main .video {
     padding: 1rem;
-    width: 100%;
-    height: 200px;
+    width: 85%;
     margin-bottom: 1rem;
-    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -22,6 +20,7 @@ main .video {
 
 img.thumb {
     max-width: 100%;
+    height: 68.5%;
 }
 
 .infos {
