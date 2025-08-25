@@ -23,3 +23,5 @@ This is a study project focused on recreating the YouTube video list page, using
 - Precise recreation of the video list page layout.
 - Use of **display: grid** to position and align video elements responsively and efficiently.
 - Clean and organized code structure.
+
+<img src="./assets/images/desktop.png">
